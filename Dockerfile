@@ -3,4 +3,5 @@ MAINTAINER Nutthaphon Suwanwong
 EXPOSE 50070 9000 9090
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 COPY startall.sh /
+COPY stopall.sh /
 CMD "/startall.sh"
